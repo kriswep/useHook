@@ -1,7 +1,7 @@
 {
-  "name": "useHooks",
-  "version": "1.0.0",
-  "description": "useHooks React component",
+  "name": "useHook",
+  "version": "0.1.0",
+  "description": "useHook React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -21,17 +21,20 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x"
+    "react": "16.7.0-alpha.0"
   },
   "devDependencies": {
     "nwb": "0.23.x",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Christoph Benjamin Weber",
+  "homepage": "https://github.com/kriswep/useHook",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kriswep/useHook"
+  },
   "keywords": [
     "react-component"
   ]
