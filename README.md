@@ -47,7 +47,7 @@ This is still highly experimental, as is the react hook [API](https://reactjs.or
 [size]: https://unpkg.com/usehook/lib/index.js
 
 [module-badge]: https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20es-brightgreen.svg?style=flat-square
-[module]: https://unpkg.com/gitcomment/dist/gitcomment.js
+[module]: https://unpkg.com/gitcomment/dist/usehook.js
 
 [npm-badge]: https://img.shields.io/npm/v/usehook.png?style=flat-square
 [npm]: https://www.npmjs.com/package/usehook
