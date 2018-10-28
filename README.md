@@ -4,7 +4,32 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Just use the hooks
+Just use the hooks. This library aims to provide a possibilits to use the hooks in yur plain old React components. Yes, even in classes. It does so, by providing a `render prop` which you can pass your hook to.
+
+Usage see `demo` folder for now.
+```javascript
+import React, {useState} from 'react';
+
+import UseHook from 'useHook';
+
+class Hooked extends React.Component {
+  render() {
+    return (
+      <UseHook hook={useState} hookValue={0}>
+        {([number, setNumber]) => (
+          <div>
+            <span>Number: {number}</span>
+            <button onClick={() => setNumber(number + 1)}>+1</button>
+          </div>
+        )}
+      </UseHook>
+    );
+  }
+}
+```
+
+## WARNING
+This is still highly experimental, as is the react hook [API](https://reactjs.org/hooks) itself
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
