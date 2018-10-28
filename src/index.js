@@ -1,9 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+const UseHook = ({ hook, hookValue, children, ...props }) => {
+  const useHook = hook;
+  const hooked = useHook(hookValue);
+
+  return children(hooked, ...props);
+};
+
+export default UseHook;

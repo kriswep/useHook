@@ -1,14 +1,20 @@
-import React, {Component} from 'react'
+import React, {useState} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import UseHook from '../../src'
 
-class Demo extends Component {
+class Demo extends React.Component {
   render() {
-    return <div>
-      <h1>useHooks Demo</h1>
-      <Example/>
-    </div>
+    return (
+      <UseHook hook={useState} hookValue={0}>
+        {([number, setNumber]) => (
+          <div>
+            <span>Number: {number}</span>
+            <button onClick={() => setNumber(number + 1)}>+1</button>
+          </div>
+        )}
+      </UseHook>
+    );
   }
 }
 
