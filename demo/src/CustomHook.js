@@ -4,7 +4,7 @@ import UseHook from '../../src';
 class CustomHook extends React.Component {
   render() {
     return (
-      <UseHook hook={useCustomHook} hookValue={0}>
+      <UseHook hook={[useCustomHook, 0]}>
         {([number, setNumber]) => (
           <div>
             <span>Number via customHook: {number}</span>

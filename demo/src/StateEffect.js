@@ -4,11 +4,14 @@ import UseHook from '../../src';
 class StateEffect extends React.Component {
   render() {
     return (
-      <UseHook hook={useState} hookValue={0}>
+      <UseHook hook={[useState, 0]}>
         {([number, setNumber]) => (
           <UseHook
-            hook={useEffect}
-            hookValue={() => (document.title = `You clicked ${number} times`)}
+            hook={[
+              useEffect,
+              () => (document.title = `You clicked ${number} times`),
+              [number],
+            ]}
           >
             {() => (
               <div>
