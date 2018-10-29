@@ -1,21 +1,18 @@
-import React, {useState} from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
 
-import UseHook from '../../src'
+import StateEffect from './StateEffect';
+import CustomHook from './CustomHook';
 
 class Demo extends React.Component {
   render() {
     return (
-      <UseHook hook={useState} hookValue={0}>
-        {([number, setNumber]) => (
-          <div>
-            <span>Number: {number}</span>
-            <button onClick={() => setNumber(number + 1)}>+1</button>
-          </div>
-        )}
-      </UseHook>
+      <React.Fragment>
+        <StateEffect />
+        <CustomHook />
+      </React.Fragment>
     );
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'));

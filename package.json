@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "nwb": "0.23.x",
+    "prettier": "^1.14.3",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0"
   },
@@ -35,7 +36,12 @@
     "type": "git",
     "url": "https://github.com/kriswep/useHook"
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
   "keywords": [
-    "react-component"
+    "react-hooks",
+    "render-prop"
   ]
 }
