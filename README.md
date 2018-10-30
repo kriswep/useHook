@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [useHook](#usehook)
+  - [Contributors](#contributors)
+  - [LICENSE](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # useHook
 
 [![dependencies][dep-badge]][dep]
@@ -36,6 +45,28 @@ class Hooked extends React.Component {
   }
 }
 ```
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/8836059?v=4" width="50px;"/><br /><sub><b>Christoph Benjamin Weber</b></sub>](https://wetainment.com)<br />[💻](https://github.com/kriswep/usehook/commits?author=kriswep "Code") [📖](https://github.com/kriswep/usehook/commits?author=kriswep "Documentation") [💡](#example-kriswep "Examples") |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Thanks goes to these people ([emoji key][emojis]):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors][all-contributors] specification.
+Contributions of any kind welcome!
+
+## LICENSE
+
+MIT
 
 [dep-badge]: https://david-dm.org/kriswep/useHook.svg
 [dep]: https://david-dm.org/kriswep/useHook
