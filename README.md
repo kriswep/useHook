@@ -48,17 +48,13 @@ class Hooked extends React.Component {
 
 ## Contributors
 
+Thanks goes to these people ([emoji key][emojis]):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars2.githubusercontent.com/u/8836059?v=4" width="50px;"/><br /><sub><b>Christoph Benjamin Weber</b></sub>](https://wetainment.com)<br />[💻](https://github.com/kriswep/usehook/commits?author=kriswep "Code") [📖](https://github.com/kriswep/usehook/commits?author=kriswep "Documentation") [💡](#example-kriswep "Examples") |
 | :---: |
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Thanks goes to these people ([emoji key][emojis]):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
@@ -70,10 +66,10 @@ MIT
 
 [dep-badge]: https://david-dm.org/kriswep/useHook.svg
 [dep]: https://david-dm.org/kriswep/useHook
-[gzip-badge]: http://img.badgesize.io/https://unpkg.com/usehook/lib/index.js?compression=gzip&label=gzip%20size&style=flat-square
-[gzip]: https://unpkg.com/usehook/lib/index.js
-[size-badge]: http://img.badgesize.io/https://unpkg.com/usehook/lib/index.js?label=size&style=flat-square
-[size]: https://unpkg.com/usehook/lib/index.js
+[gzip-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/index.js?compression=gzip&label=gzip%20size&style=flat-square
+[gzip]: https://unpkg.com/usehook/dist/index.js
+[size-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/index.js?label=size&style=flat-square
+[size]: https://unpkg.com/usehook/dist/index.js
 [module-badge]: https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20es-brightgreen.svg?style=flat-square
 [module]: https://unpkg.com/usehook/
 [npm-badge]: https://img.shields.io/npm/v/usehook.png?style=flat-square
@@ -84,3 +80,5 @@ MIT
 [react]: https://reactjs.org/
 [pr-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [pr]: http://makeapullrequest.com
+[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
+[all-contributors]: https://github.com/kentcdodds/all-contributors

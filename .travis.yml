@@ -1,16 +1,14 @@
 sudo: false
 
 language: node_js
-node_js:
-  - 8
-
-before_install:
-  - npm install codecov.io coveralls
-
-after_success:
-  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
-  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
+node_js: '8'
+install: npm install
+script: npm run validate
+after_success: kcd-scripts travis-after-success
 branches:
-  only:
-    - master
+  only: master

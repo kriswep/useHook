@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import UseHook from '../../src';
 
+const useCustomHook = value => {
+  const [number, setNumber] = useState(value);
+
+  useEffect(() => (document.title = `You clicked ${number} times`));
+
+  return [number, setNumber];
+};
+
 class CustomHook extends React.Component {
   render() {
     return (
@@ -15,13 +23,5 @@ class CustomHook extends React.Component {
     );
   }
 }
-
-const useCustomHook = value => {
-  const [number, setNumber] = useState(value);
-
-  useEffect(() => (document.title = `You clicked ${number} times`));
-
-  return [number, setNumber];
-};
 
 export default CustomHook;

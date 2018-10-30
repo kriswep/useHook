@@ -2,29 +2,34 @@
   "name": "usehook",
   "version": "0.3.0",
   "description": "useHook React component",
-  "main": "lib/index.js",
-  "module": "es/index.js",
+  "main": "dist/index.js",
+  "module": "dist/usehook.esm.js",
   "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
+    "dist"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "echo 0",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "kcd:add-contributor": "kcd-scripts contributors add",
+    "test": "kcd-scripts test",
+    "test:update": "kcd-scripts test --updateSnapshot",
+    "build": "kcd-scripts build && kcd-scripts build --bundle --no-clean",
+    "lint": "kcd-scripts lint",
+    "format": "kcd-scripts format",
+    "validate": "kcd-scripts validate",
+    "precommit": "kcd-scripts precommit"
   },
   "dependencies": {},
   "peerDependencies": {
     "react": "16.7.0-alpha.0"
   },
+  "//devDependencies": {
+    "kcd-scripts": "^0.45.0",
+    "nwb": "0.23.x"
+  },
   "devDependencies": {
-    "nwb": "0.23.x",
+    "kcd-scripts": "0.44.0",
     "prettier": "^1.14.3",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0"
@@ -35,10 +40,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kriswep/useHook"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
   },
   "keywords": [
     "react-hooks",
