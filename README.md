@@ -2,6 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [useHook](#usehook)
+  - [Usage](#usage)
   - [Contributors](#contributors)
   - [LICENSE](#license)
 
@@ -23,7 +24,9 @@ Just use the hooks. This library aims to provide a possibility to use fancy Reac
 
 _**Warning** This is still highly experimental, as is the react hook [API](https://reactjs.org/hooks) itself_
 
-Usage see `demo` folder for now. Or enjoy a [codesandbox](https://codesandbox.io/s/7ml3653606)!
+## Usage
+
+See `demo` folder for now. Or enjoy a [codesandbox](https://codesandbox.io/s/7ml3653606)!
 
 ```javascript
 import React, { useState } from 'react';
@@ -66,10 +69,10 @@ MIT
 
 [dep-badge]: https://david-dm.org/kriswep/useHook.svg
 [dep]: https://david-dm.org/kriswep/useHook
-[gzip-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/index.js?compression=gzip&label=gzip%20size&style=flat-square
-[gzip]: https://unpkg.com/usehook/dist/index.js
-[size-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/index.js?label=size&style=flat-square
-[size]: https://unpkg.com/usehook/dist/index.js
+[gzip-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/usehook.cjs.js?compression=gzip&label=gzip%20size&style=flat-square
+[gzip]: https://unpkg.com/usehook/dist/usehook.cjs.js
+[size-badge]: http://img.badgesize.io/https://unpkg.com/usehook/dist/usehook.cjs.js?label=size&style=flat-square
+[size]: https://unpkg.com/usehook/dist/usehook.cjs.js
 [module-badge]: https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20es-brightgreen.svg?style=flat-square
 [module]: https://unpkg.com/usehook/
 [npm-badge]: https://img.shields.io/npm/v/usehook.png?style=flat-square
