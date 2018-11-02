@@ -18,7 +18,7 @@
     "lint": "kcd-scripts lint",
     "format": "kcd-scripts format",
     "validate": "kcd-scripts validate",
-    "precommit": "kcd-scripts precommit"
+    ".precommit": "kcd-scripts precommit"
   },
   "dependencies": {},
   "peerDependencies": {
