@@ -4,7 +4,9 @@ import UseHook from 'usehook';
 const useCustomHook = value => {
   const [number, setNumber] = useState(value);
 
-  useEffect(() => (document.title = `You clicked ${number} times`));
+  useEffect(() => {
+    document.title = `You clicked ${number} times`;
+  });
 
   return [number, setNumber];
 };

@@ -8,9 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
-    "start": "nwb serve-react-demo",
     "kcd:add-contributor": "kcd-scripts contributors add",
     "test": "kcd-scripts test",
     "test:update": "kcd-scripts test --updateSnapshot",
@@ -20,19 +18,14 @@
     "validate": "kcd-scripts validate",
     ".precommit": "kcd-scripts precommit"
   },
-  "dependencies": {},
   "peerDependencies": {
-    "react": "16.7.0-alpha.0"
-  },
-  "//devDependencies": {
-    "kcd-scripts": "^0.45.0",
-    "nwb": "0.23.x"
+    "react": "^16.8.1"
   },
   "devDependencies": {
     "kcd-scripts": "0.44.0",
     "prettier": "^1.14.3",
-    "react": "^16.7.0-alpha.0",
-    "react-dom": "^16.7.0-alpha.0"
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   },
   "author": "Christoph Benjamin Weber",
   "homepage": "https://github.com/kriswep/useHook",

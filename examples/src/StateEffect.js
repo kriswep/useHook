@@ -9,7 +9,7 @@ class StateEffect extends React.Component {
           <UseHook
             hook={[
               useEffect,
-              () => (document.title = `You clicked ${number} times`),
+              () => {document.title = `You clicked ${number} times`},
               [number],
             ]}
           >

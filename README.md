@@ -22,11 +22,9 @@
 
 Just use the hooks. This library aims to provide a possibility to use fancy React hooks in yur plain old components. Yes, even in classes. It does so, by providing a `render prop` which you can pass your hook to.
 
-_**Warning** This is still highly experimental, as is the react hook [API](https://reactjs.org/hooks) itself_
-
 ## Usage
 
-See `demo` folder for now. Or enjoy a [codesandbox](https://codesandbox.io/s/7ml3653606)!
+See `example` folder. Or enjoy a [codesandbox](https://codesandbox.io/s/7ml3653606)!
 
 ```javascript
 import React, { useState } from 'react';
