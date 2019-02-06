@@ -1,6 +1,6 @@
 {
   "name": "usehook",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "useHook React component",
   "main": "dist/usehook.cjs.js",
   "module": "dist/usehook.esm.js",
