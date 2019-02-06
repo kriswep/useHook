@@ -34,7 +34,7 @@ import UseHook from 'usehook';
 class Hooked extends React.Component {
   render() {
     return (
-      <UseHook hook={useState} hookValue={0}>
+      <UseHook hook={[useState, 0]}>
         {([number, setNumber]) => (
           <div>
             <span>Number: {number}</span>
@@ -43,7 +43,6 @@ class Hooked extends React.Component {
         )}
       </UseHook>
     );
-  }
 }
 ```
 
